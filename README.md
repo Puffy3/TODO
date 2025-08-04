@@ -23,11 +23,11 @@ cd todo-mern-gemini
 ### 2. Backend Setup
 
 ```bash
-cd todo-mern-backend
+cd server
 npm install
 ```
 
-Create a `.env` file in `todo-mern-backend`:
+Create a `.env` file in `server`:
 
 ```
 PORT=5000
@@ -40,7 +40,7 @@ Start the local MongoDB server if it’s not already running.
 ### 3. Frontend Setup
 
 ```bash
-cd ../todo-mern-frontend
+cd ../client
 npm install
 ```
 
@@ -58,7 +58,7 @@ REACT_APP_GEMINI_API_KEY=your_gemini_api_key_here
 #### In one terminal, start the backend:
 
 ```bash
-cd todo-mern-backend
+cd server
 npm run dev
 ```
 Or, if using Node:
@@ -69,7 +69,7 @@ npm start
 #### In another terminal, start the frontend:
 
 ```bash
-cd todo-mern-frontend
+cd client
 npm start
 ```
 
