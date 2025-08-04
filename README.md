@@ -1,5 +1,3 @@
-Here’s a clear and concise README for your full-stack MERN ToDo app with Gemini AI integration:
-
 # MERN ToDo App with Gemini AI Question Bar
 
 A full-stack ToDo application built with the MERN stack (MongoDB, Express.js, React.js, Node.js) and Google Gemini API integration for asking questions.
